@@ -19,5 +19,11 @@ namespace DOTNET2
         {
             Console.WriteLine("Nie potrafie latać.");
         }
+
+        public override void Describe()
+        {
+            Console.WriteLine("jestem gołębiem.");
+
+        }
     }
 }

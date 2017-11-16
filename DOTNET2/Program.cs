@@ -31,6 +31,10 @@ namespace DOTNET2
 
             chick.Fly();
 
+            chick.Describe();
+
+            
+
 
 
 

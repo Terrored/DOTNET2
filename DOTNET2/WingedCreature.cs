@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace DOTNET2
 {
-    class Pigeon:Bird
+   abstract class WingedCreature
     {
-
-        public Pigeon(): base()
+        public abstract void Describe()
         {
-            Console.WriteLine("Konstruktor klasy Pigeon");
+            Console.WriteLine("Nie wiadomo nic o tej skrzydlatej bestii");
         }
-
     }
 }
